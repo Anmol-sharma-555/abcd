@@ -1,0 +1,7 @@
+li#accordion-section-chickthemes_new_upgrade h3 {
+    color: #fff!important;
+    background-color: #008EC2!important;
+}
+li#accordion-section-chickthemes_new_upgrade h3:after {
+    color:#fff!important;
+}

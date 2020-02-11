@@ -1,0 +1,14 @@
+add_filter ("wp_mail_content_type", "my_awesome_mail_content_type");
+function my_awesome_mail_content_type() {
+    return "text/html";
+}
+
+add_filter ("wp_mail_from", "my_awesome_mail_from");
+function my_awesome_mail_from() {
+    return "hithere@myawesomesite.com";
+}
+
+add_filter ("wp_mail_from_name", "my_awesome_mail_from_name");
+function my_awesome_email_from_name() {
+    return "MyAwesomeSite";
+}
